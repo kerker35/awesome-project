@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { work } from "./work";
+ 
 class App extends Component {
   render() {
     return (
@@ -11,8 +12,23 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          result below
         </p>
+        <p>{work()}</p>
+      
+        <form>
+          <input 
+            type="text"
+            name="todo"
+          />
+          <input 
+            type="submit"
+            value="Add todo"
+          />
+        </form>
+        <ul>
+          <li>aller aux courses</li>
+        </ul>
       </div>
     );
   }
