@@ -1,5 +1,39 @@
+
+* {
+	background-color: rgba(150, 150, 150, 0.4);
+}
+
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: grey;
+}
+
+#cv {
+	color: black;
+}
+
+#cv-title {
+	text-align: center;
+}
+
+#personal {
+	display: flex;
+	justify-content: space-between;
+}
+
+#personal > img {
+	width: 150px;
+	height: 150px;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+em {
+	font-weight: bold;
 }
